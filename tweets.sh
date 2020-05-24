@@ -1,7 +1,8 @@
 #!/usr/bin/env node
-// print all tweets from a Twitter archive
-// usage: tweets.sh archive.js
-// archive.js should take the format: module.exports = [{ tweets }]
+/* print all tweets from a Twitter archive
+ * usage: tweets.sh archive.js
+ * archive.js should take the format: module.exports = [{ tweets }]
+ */
 
 const tweets = require(process.argv[2])
 
